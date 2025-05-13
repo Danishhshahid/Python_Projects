@@ -3,22 +3,22 @@ import streamlit as st
 
 
 
-print("Wellcome to Password Generator")
+# print("Wellcome to Password Generator")
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?0123456789'
+# chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?0123456789'
 
-number = int(input("enter the amount to passwords to generate: "))
-# number = int(number)
-length = int(input("Enter the required length of password: "))
-# length = int(length)
+# number = int(input("enter the amount to passwords to generate: "))
+# # number = int(number)
+# length = int(input("Enter the required length of password: "))
+# # length = int(length)
 
-print("\n Here are your Passwords: ")
+# print("\n Here are your Passwords: ")
 
-for pwd in range(number):
-    passwords = ''
-    for c in range(length):
-        passwords += random.choice(chars)
-    print(passwords)
+# for pwd in range(number):
+#     passwords = ''
+#     for c in range(length):
+#         passwords += random.choice(chars)
+#     print(passwords)
 
 
 #Render on streamlit
