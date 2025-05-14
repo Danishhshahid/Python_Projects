@@ -5,5 +5,12 @@
         "publication_year": 2014,
         "genre": "self help book",
         "read_status": "completed"
+    },
+    {
+        "title": "The almanack of Naval Ravikant",
+        "author": "Eric Jorgenson",
+        "publication_year": 2022,
+        "genre": "Wealth and Happiness",
+        "read_status": "in-progress"
     }
 ]
